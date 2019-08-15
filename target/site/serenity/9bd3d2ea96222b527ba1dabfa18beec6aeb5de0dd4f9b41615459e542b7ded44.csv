@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"When busco resultados con texto","Resultado especifico","SUCCESS","2019-08-14T15:40:28.508512-05:00[America/Bogota]","0.0","18.6"
+"When ejecutamos una busqueda","Deberiamos ver resultados relevantes","SUCCESS","2019-08-14T15:40:28.508515-05:00[America/Bogota]","0.0","18.61"

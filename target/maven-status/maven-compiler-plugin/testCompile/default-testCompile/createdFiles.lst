@@ -1,0 +1,7 @@
+BusinessControler/WsAlbum.class
+motoresBusqueda/dogpile/Steps/UsuarioDogPile.class
+motoresBusqueda/dogpile/BusinessControler/WhenEjecutamosUnaBusqueda.class
+motoresBusqueda/dogpile/BusinessControler/WhenBuscoResultadosConTexto.class
+motoresBusqueda/dogpile/PageObject/DogpilePaginaResultados.class
+motoresBusqueda/dogpile/PageObject/DogpilePaginaPrincipal.class
+BusinessControler/Steps/WsAlbumStep.class
