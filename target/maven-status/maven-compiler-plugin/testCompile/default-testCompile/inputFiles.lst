@@ -1,7 +1,7 @@
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/BusinessControler/Steps/WsAlbumStep.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/BusinessControler/WsAlbum.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/motoresBusqueda/dogpile/PageObject/DogpilePaginaPrincipal.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/motoresBusqueda/dogpile/BusinessControler/WhenBuscoResultadosConTexto.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/motoresBusqueda/dogpile/BusinessControler/WhenEjecutamosUnaBusqueda.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/motoresBusqueda/dogpile/PageObject/DogpilePaginaResultados.java
-/Users/frankvascovargas/Desktop/Karol/Projects/serenityID/src/test/java/motoresBusqueda/dogpile/Steps/UsuarioDogPile.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/Runner.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/BusinessControler/WsAlbum.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/motoresBusqueda/dogpile/PageObject/DogpilePaginaPrincipal.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/motoresBusqueda/dogpile/Steps/UsuarioDogPile.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/BusinessControler/Steps/WsAlbumStep.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/motoresBusqueda/dogpile/PageObject/DogpilePaginaResultados.java
+/Users/frankvascovargas/Desktop/SerenityDogPileKraken/SerenityDogFile/src/test/java/motoresBusqueda/dogpile/BusinessControler/RealizarBusquedasDogPile.java

@@ -1,0 +1,219 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Buscar resultados relevantes",
+        "description": "",
+        "id": "busquedas-en-dogpile;buscar-resultados-relevantes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14012664324,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Que el usuario entra en dogpile",
+            "match": {
+              "location": "UsuarioDogPile.que_el_usuario_entra_en_dogpile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10516162085,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usuario realiza una busqueda de: rock nacional",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rock nacional",
+                  "offset": 36
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_realiza_una_busqueda_de_rock_nacional(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320639068,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "El usuario deberia poder ver resultados que contengan la palabra: rock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rock",
+                  "offset": 66
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_deberia_poder_ver_resultados_que_contengan_la_palabra_rock(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cucumber"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verificar que los resultados con texto relevante al titulo",
+        "description": "",
+        "id": "busquedas-en-dogpile;verificar-que-los-resultados-con-texto-relevante-al-titulo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11681816060,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Que el usuario entra en dogpile",
+            "match": {
+              "location": "UsuarioDogPile.que_el_usuario_entra_en_dogpile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8278852755,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "El usuario realiza una busqueda de: rock nacional",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rock nacional",
+                  "offset": 36
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_realiza_una_busqueda_de_rock_nacional(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95360506,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "El usuario deberia ver un texto: Argentine Rock Nacional is one of is relevante con el titulo: Argentine rock - Wikipedia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Argentine Rock Nacional is one of",
+                  "offset": 33
+                },
+                {
+                  "val": "Argentine rock - Wikipedia",
+                  "offset": 95
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_deberia_ver_un_texto_Rock_de_Argentina_Wikipedia_is_relevante_con_el_titulo_El_rock_and_roll_surgió(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cucumber"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verificar que los resultados con texto relevante al titulo",
+        "description": "",
+        "id": "busquedas-en-dogpile;verificar-que-los-resultados-con-texto-relevante-al-titulo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15454117940,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Que el usuario entra en dogpile",
+            "match": {
+              "location": "UsuarioDogPile.que_el_usuario_entra_en_dogpile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9543740426,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "El usuario realiza una busqueda de: amor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amor",
+                  "offset": 36
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_realiza_una_busqueda_de_rock_nacional(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105884881,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "El usuario deberia ver un texto: amor in Harry Thurston Peck, editor is relevante con el titulo: amor - Wiktionary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amor in Harry Thurston Peck, editor",
+                  "offset": 33
+                },
+                {
+                  "val": "amor - Wiktionary",
+                  "offset": 97
+                }
+              ],
+              "location": "UsuarioDogPile.el_usuario_deberia_ver_un_texto_Rock_de_Argentina_Wikipedia_is_relevante_con_el_titulo_El_rock_and_roll_surgió(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cucumber"
+          }
+        ]
+      }
+    ],
+    "name": "Busquedas en dogpile",
+    "description": "",
+    "id": "busquedas-en-dogpile",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/dogPile.feature",
+    "tags": [
+      {
+        "name": "@Cucumber",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

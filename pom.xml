@@ -22,7 +22,7 @@
                     <version>2.22.1</version>
                     <configuration>
                         <includes>
-                            <include>**/When*.java</include>
+                            <include>**/Runner*.java</include>
                         </includes>
                         <systemPropertyVariables>
                             <serenity.fork.count>4</serenity.fork.count>
@@ -126,6 +126,13 @@
             <artifactId>rest-assured</artifactId>
             <version>3.3.0</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
         </dependency>
     </dependencies>
     <build>

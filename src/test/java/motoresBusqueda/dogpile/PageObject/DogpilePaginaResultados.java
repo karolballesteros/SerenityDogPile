@@ -21,12 +21,11 @@ public static final String TITULO_RESULTADO = ".web-bing__title";
             .collect(Collectors.toList());
 }
 
-
     public String obtenerTituloResultado(String tituloResultado) {
-    return findBy(TITULO_RESULTADO_ESPECIFICO,tituloResultado).then().findBy(TEXTO_RESULTADO_ENCONTRADO).then().getText();
+    return findBy(TITULO_RESULTADO_ESPECIFICO,tituloResultado).
+            then().findBy(TEXTO_RESULTADO_ENCONTRADO).
+            then().getText();
     }
-
-
 }
 
 
